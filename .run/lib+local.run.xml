@@ -1,0 +1,7 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="lib+local" type="CompoundRunConfigurationType">
+    <toRun name="lib" type="DotNetFolderPublish" />
+    <toRun name="local" type="DotNetFolderPublish" />
+    <method v="2" />
+  </configuration>
+</component>

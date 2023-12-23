@@ -1,0 +1,6 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="lib" type="DotNetFolderPublish" factoryName="Publish to folder" folderName="build">
+    <riderPublish configuration="Release" delete_existing_files="true" platform="Any CPU" runtime="win-x64" self_contained="true" target_folder="$USER_HOME$/Documents/MetaScripter/MQL5/Libraries/Mtf5" target_framework="netstandard2.0" uuid_high="-5495729155415847917" uuid_low="-6488303071699596560" />
+    <method v="2" />
+  </configuration>
+</component>

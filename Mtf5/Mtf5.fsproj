@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Enumtimeframes.fsi" />
+        <Compile Include="Enumtimeframes.fs" />
+    </ItemGroup>
+
+</Project>
