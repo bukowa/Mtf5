@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-        <GenerateDocumentationFile>false</GenerateDocumentationFile>
-        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
-        <IsPackable>false</IsPackable>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <Compile Include="Enumtimeframes.fsi" />
-        <Compile Include="Enumtimeframes.fs" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <IsPackable>false</IsPackable>
+    <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ExampleStructPointer.fsi" />
+    <Compile Include="ExampleStructPointer.fs" />
+  </ItemGroup>
 </Project>
